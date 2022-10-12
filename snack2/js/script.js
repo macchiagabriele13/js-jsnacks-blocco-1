@@ -6,7 +6,7 @@ console.log(firstWordEl);
 const secondWordEl = prompt("Inserisci una nuova parola")
 console.log(secondWordEl);
 
-let lettere = firstWordEl.split('') + secondWordEl.split('')
+/* let lettere = firstWordEl.split('') + secondWordEl.split('')
 
 
 let max = lettere[0];
@@ -18,7 +18,7 @@ for(var i = 0; i < lettere.length; i++){
   }
 }
 
-console.log('la parola più lunga è: ' + max);
+console.log('la parola più lunga è: ' + max); */
 
 
 
