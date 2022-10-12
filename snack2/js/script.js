@@ -23,3 +23,15 @@ console.log('la parola più lunga è: ' + max); */
 
 
 /* Il software stampa prima la parola più corta, poi la parola più lunga. */
+
+
+
+/* Soluzione  */
+let winner;
+if (firstWordEl.length > secondWordEl.length) {
+    winner = firstWordEl
+} else {
+    winner = secondWordEl
+}
+
+document.getElementById("winner").innerHTML = ("La parola più lunga è " + winner);
