@@ -10,6 +10,7 @@ const secondNumberEl = prompt("Inserisci un nuovo numero")
 console.log(secondNumberEl);
 
 
+
 let winner;
 if (firstNumberEl > secondNumberEl) {
     winner = firstNumberEl
@@ -17,5 +18,4 @@ if (firstNumberEl > secondNumberEl) {
     winner = secondNumberEl
 }
 
-
-document.getElementById("winner").innerHTML = ("Il numero vincente è " + `${winner}`);
+document.getElementById("winner").innerHTML = ("Il numero vincente è " + winner);
