@@ -2,7 +2,7 @@
 Il software stampa il maggiore. */
 
 /* Prompt richiesta */
-const firstNumberEl = prompt("Inserisci un numero")
+/* const firstNumberEl = prompt("Inserisci un numero")
 console.log(firstNumberEl);
 
 
@@ -19,3 +19,13 @@ if (firstNumberEl > secondNumberEl) {
 }
 
 document.getElementById("winner").innerHTML = ("Il numero vincente è " + winner);
+ */
+
+
+/* L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore. */
+
+/* Prompt richiesta */
+
+
+/* Il software stampa il maggiore. */
