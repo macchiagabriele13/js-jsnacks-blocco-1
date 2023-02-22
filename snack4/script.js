@@ -21,21 +21,23 @@ while (i < listName.length) {
 
     if (inviteName == validName) {
         message = true ;
-        console.log(message, 'Benveuto');
+    
     }
   i++
 
-}
-
-let userMessage = document.querySelector("h1");
+  let userMessage = document.querySelector("h1");
   
-if (message = true) {
+  if (message) {
+  
+      userMessage.innerHTML = "Benvenuto" 
+      
+  } else {
+  userMessage.innerHTML = "Ci spiace, non è invitato alla festa"
+  }
 
-    userMessage.innerHTML = "Benvenuto" 
-    
-} else {
-userMessage.innerHTML = "Ci spiace, non è invitato alla festa"
 }
+
+
 
 
 
